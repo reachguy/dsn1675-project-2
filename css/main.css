@@ -1,0 +1,106 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  background-color: #fff;
+
+  font-family: 'Raleway', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.ubuntu {
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+
+.title {
+  display: block;
+
+  text-align: center;
+}
+
+.title a {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav {
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.nav a {
+  display: block;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav a.current {
+  background-color: #0074D9;
+
+  color: #fff;
+}
+
+.section-dark {
+  background-color: #ccc;
+}
+
+.section-mid {
+  background-color: #e2e2e2;
+}
+
+.section {
+  background-color: #efefef;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .title,
+  .nav {
+    text-align: left;
+  }
+
+}
