@@ -25,16 +25,14 @@ html {
 font-family: 'Ubuntu', sans-serif;
 }
 
+.masthead {
+  background-color: black;
+}
 
 body {
   margin: 0;
   padding: 0;
 }
-
-h2 {
-
-}
-
 a,
 a:link,
 a:visited {
@@ -49,7 +47,7 @@ a:visited {
 }
 
 .title a {
-  color: #000;
+  color: white;
   text-decoration: none;
 }
 
@@ -61,6 +59,7 @@ a:visited {
 
 .nav a {
   display: block;
+  text-align: center;
 }
 
 .nav a:hover,
@@ -84,7 +83,11 @@ a:visited {
   background-color: #efefef;
 }
 
-@media only screen and (min-width: 25em) {
+.sign-up {
+  background-color: white;
+}
+
+@media only screen and (min-width: 1em) {
 
   .nav {
     text-align: center;
