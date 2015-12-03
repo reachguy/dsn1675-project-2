@@ -33,6 +33,10 @@ ul li::before {
   content: none;
 }
 
+ol li::before {
+  content: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -45,6 +49,10 @@ a:visited {
 
 .nav {
   text-align: center;
+}
+
+.btn {
+  max-width: 20em;
 }
 
 .title {
@@ -84,11 +92,17 @@ a:visited {
   margin: 0;
 }
 
-@media only screen and (min-width: 38em) {
+.title{
+  text-align: center;
+}
 
-  .title,
-  .nav {
+@media only screen and (min-width: 25em) {
+
+  .title{
     text-align: left;
+  }
+  .nav {
+    text-align: right;
   }
 
   .sign-up h2{
@@ -96,3 +110,9 @@ a:visited {
   }
 
 }
+
+footer .list-group {
+  text-align: right;
+
+}
+
