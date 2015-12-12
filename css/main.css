@@ -26,7 +26,13 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .masthead {
-  background-color: black;
+  background-color: white;
+}
+
+.logo {
+  max-height: 2em;
+  display: block;
+  margin-left: 7px;
 }
 
 ul li::before {
@@ -35,6 +41,27 @@ ul li::before {
 
 ol li::before {
   content: none;
+}
+
+.hero {
+  min-height: 20em;
+}
+
+@media only screen and (min-width: 25em){
+  .hero {
+    min-height: 25em;
+  }
+}
+
+@media only screen and (min-width: 30em){
+  .hero {
+    min-height: 30em;
+  }
+
+  .hero-wrapper {
+  max-height: 15em;
+  margin: 0 auto;
+}
 }
 
 .signup {
