@@ -21,12 +21,12 @@ html {
   box-sizing: inherit;
 }
 
-.ubuntu {
-font-family: 'Ubuntu', sans-serif;
-}
-
 .masthead {
   background-color: white;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
@@ -45,6 +45,11 @@ ol li::before {
 
 .hero {
   min-height: 20em;
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-color: black;
 }
 
 @media only screen and (min-width: 25em){
@@ -62,6 +67,34 @@ ol li::before {
   max-height: 15em;
   margin: 0 auto;
 }
+}
+
+.tour {
+  background-image: url("../img/tour.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 18em;
+}
+
+.plans {
+  background-image: url("../img/plans.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 18em;
+}
+
+.buckets {
+  padding: 0;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
 }
 
 .signup {
@@ -115,12 +148,20 @@ a:visited {
   background-color: #e2e2e2;
 }
 
-.section {
-  background-color: #efefef;
-}
-
 .sign-up {
   margin: 0;
+}
+
+.signup2 {
+  background-color: black;
+}
+
+.signup2:hover {
+  background-color: #387c17;
+}
+
+.signup2 h2 {
+  color: white;
 }
 
 .title{
@@ -158,4 +199,32 @@ input + label {
 
 button {
   cursor: pointer;
+}
+
+.form {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+.section {
+    background-color: #efefef;
+  }
+
+@media only screen and (min-width: 38em){
+
+  .section {
+    background-color: #efefef;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+
+
+@media only screen and (min-width: 38em) {
+
+  .form {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
