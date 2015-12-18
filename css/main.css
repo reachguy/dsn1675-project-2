@@ -14,7 +14,8 @@ html {
 
   background-color: #fff;
 
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif
+
 }
 
 *, *:before, *:after {
@@ -27,6 +28,10 @@ html {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
+}
+
+.italic {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .logo {
@@ -179,7 +184,7 @@ nav a {
 }
 
 .signup2:hover {
-  background-color: #387c17;
+  background-color: #0074D9;
 }
 
 .signup2 h2 {
