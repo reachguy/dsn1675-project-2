@@ -135,7 +135,7 @@ a:visited {
 }
 
 .btn {
-  max-width: 20em;
+  max-width: 10em;
 }
 
 .title {
@@ -149,6 +149,9 @@ a:visited {
   text-decoration: none;
 }
 
+nav a {
+  color: black;
+}
 
 .nav a:hover,
 .nav a:focus,
