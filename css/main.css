@@ -255,3 +255,23 @@ button {
     margin-right: 15%;
   }
 }
+
+
+.thanks {
+  text-align: center;
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+
+.thanks h1 {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .thanks {
+    margin-top: 14em;
+    margin-bottom: 14em;
+  }
+
+}
