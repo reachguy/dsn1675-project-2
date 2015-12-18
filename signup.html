@@ -37,95 +37,126 @@
 
 <div class="section">
   <div class="form pad-t-2 pad-b-2">
-    <form action="https://formspree.io/shim0023@algonquinlive.com" method="POST">
+    <form action="https://formspree.io/shim0023@algonquinlive.com" method="POST" class="gutter-2 push">
 
-      <h1>Get cooking!</h1>
+
+
+
+      <legend class="unit xs-1 exa push pad-t">Get Cooking!</legend>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1 l-1">
+            <label for="user-name">User Name</label>
+            <input class="push text-input bg-white" type="text" id="user-name" required>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1 l-1">
+            <label for="email">Email</label>
+            <input class="push text-input bg-white" type="email" id="email" placeholder="your@email.com" required>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1 l-1">
+            <label for="password">Password</label>
+            <input class="push text-input bg-white" type="password" id="password" required>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1 l-1">
+            <label for="confirm-password">Confirm Password</label>
+            <input class="push text-input bg-white" type="password" id="confirm-password" required>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1 l-1 push">
+            <label for="plan">Select Plan</label>
+            <select id="plan" class="select-light">
+              <option value="$5 monthly">$5 Monthly</option>
+              <option value="$10 monthly">$10 Monthly</option>
+            </select>
+          </div>
+        </div>
 
       <div>
         <label for="name">Name</label>
-        <input id="name" required name="name">
+        <input id="name" required name="name" class="push">
       </div>
 
-      <div class="push">
-        <label for="email">Email</label>
-        <input id="email" type="email" name="email" class="italic" required placeholder="you@yours.com">
+      <div class="dropdown">
+        <fieldset class="unit xs-1 s-1 m-1 l-1">
+          <legend>Card Type</legend>
+          <input id="master-card" type="radio" name="card-type">
+          <label for="master-card">Mastercard</label>
+          <br><input id="visa" type="radio" name="card-type">
+          <label for="visa">Visa</label>
+          <br><input id="american-express" type="radio" name="card-type">
+          <label for="american-express">American Express</label>
+        </fieldset>
       </div>
-
-      <fieldset class="unit xs-1 s-1 m-1 l-1">
-        <legend>Card Type</legend>
-        <input id="master-card" type="radio" name="card-type">
-        <label for="master-card">Mastercard</label>
-        <br><input id="visa" type="radio" name="card-type">
-        <label for="visa">Visa</label>
-        <br><input id="american-express" type="radio" name="card-type">
-        <label for="american-express">American Express</label>
-      </fieldset>
 
       <div class="unit xs-1 s-1 m-1 l-1">
           <label for="card-number">Card Number</label>
           <input class="push italic" type="text" id="card-number" inputmode="numeric" placeholder="1111 2222 3333 4444" required>
         </div>
 
-      <fieldset class="unit xs-1 s-1 m-1 l-1">
-            <legend>Expiry Date</legend>
-            <div class="grid">
-              <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
-                <label for="month" class="visually-hidden">Month</label>
-                <select id="month" required>
-                  <option value default="default" selected="selected">Month</option>
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                  <option>6</option>
-                  <option>7</option>
-                  <option>8</option>
-                  <option>9</option>
-                  <option>10</option>
-                  <option>11</option>
-                  <option>12</option>
-                </select>
+      <div class="dropdown">
+        <fieldset class="unit xs-1 s-1 m-1 l-1">
+              <legend>Expiry Date</legend>
+              <div class="grid">
+                <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
+                  <label for="month" class="visually-hidden">Month</label>
+                  <select id="month" required>
+                    <option value default="default" selected="selected">Month</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                  </select>
+                </div>
+                <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
+                  <label for="year" class="visually-hidden">Year</label>
+                    <select id="year">
+                    <option value default="default" selected="selected">Year</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                    <option>32</option>
+                    <option>33</option>
+                    <option>34</option>
+                    <option>35</option>
+                    <option>36</option>
+                    <option>37</option>
+                    <option>38</option>
+                    <option>39</option>
+                    <option>40</option>
+                    <option>41</option>
+                    <option>42</option>
+                    <option>43</option>
+                    <option>44</option>
+                    <option>45</option>
+                  </select>
+                </div>
               </div>
-              <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
-                <label for="year" class="visually-hidden">Year</label>
-                  <select id="year">
-                  <option value default="default" selected="selected">Year</option>
-                  <option>15</option>
-                  <option>16</option>
-                  <option>17</option>
-                  <option>18</option>
-                  <option>19</option>
-                  <option>20</option>
-                  <option>21</option>
-                  <option>22</option>
-                  <option>23</option>
-                  <option>24</option>
-                  <option>25</option>
-                  <option>26</option>
-                  <option>27</option>
-                  <option>28</option>
-                  <option>29</option>
-                  <option>30</option>
-                  <option>31</option>
-                  <option>32</option>
-                  <option>33</option>
-                  <option>34</option>
-                  <option>35</option>
-                  <option>36</option>
-                  <option>37</option>
-                  <option>38</option>
-                  <option>39</option>
-                  <option>40</option>
-                  <option>41</option>
-                  <option>42</option>
-                  <option>43</option>
-                  <option>44</option>
-                  <option>45</option>
-                </select>
-              </div>
-            </div>
-          </fieldset>
+            </fieldset>
+          </div>
 
           <div class="unit xs-1 s-1 m-1-2 l-1-2">
             <label required>Security code</label>
@@ -136,14 +167,9 @@
             <input class="push italic" type="text" placeholder="A1A 1A1" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" id="postal-code">
           </div>
 
-      <div>
-        <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
-      </div>
-
-      <div>
-        <button type="submit">Send</button>
-      </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
 
       <input type="hidden" name="_next" value="https://reachguy.github.io/dsn1675-project-2/thankyou.html">
 

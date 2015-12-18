@@ -236,11 +236,7 @@ button {
 }
 
 .form {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-.section {
+    max-width: 21em;
     background-color: #efefef;
   }
 
@@ -248,8 +244,8 @@ button {
 
   .section {
     background-color: #efefef;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10em;
+    margin-right: 10em;
   }
 }
 
@@ -285,4 +281,17 @@ button {
     margin-bottom: 14em;
   }
 
+}
+
+input{
+  min-width: 15em;
+}
+
+legend {
+  max-width: 15em;
+}
+
+.dropdown {
+  min-width: 15em;
+  max-width: 15em;
 }
