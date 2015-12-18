@@ -212,7 +212,14 @@ nav a {
 
 footer .list-group {
   text-align: right;
+}
 
+footer a{
+  color: black;
+}
+
+.fig {
+  color: #0074D9;
 }
 
 label {
@@ -261,6 +268,10 @@ button {
   text-align: center;
   margin-top: 8em;
   margin-bottom: 8em;
+}
+
+.thanks a{
+  color: #0074D9;
 }
 
 .thanks h1 {
